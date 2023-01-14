@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,400;1,500&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230096ff' fill-opacity='0.27'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section{
+  background-color: #fefefe;
+  padding: 20px 30px;
+  border-radius: 15px;
+  width: fit-content;
+  max-width: 900px;
+  height: auto;
+  font-size: 2.5rem;
+  box-shadow: 25px 16px 45px 15px rgb(221, 221, 221);
+}
+.author{
+    font-weight: 500;
+}
+.buttons{
+    margin-top: 10px 2px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.twitter-btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(79, 254, 254);
+    cursor: pointer;
+    height: 2.5rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    border-radius: 100px;
+    border-width: 1px;
+}
+.twitter-btn:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.new-quote{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    height: 2.8rem;
+    width: 8rem;
+    font-size: 1.4rem;
+    color: #fefefe;    
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.new-quote:hover{
+    background-color: rgb(73, 71, 71);  
+}
+
+@media screen and (max-width:1000px){
+    .quote-section{
+        margin: auto 20px;
+        box-shadow: 20px 16px 45px 15px rgb(221, 221, 221);
+    }
+}
