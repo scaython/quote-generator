@@ -20,7 +20,7 @@ async function fetchQuotes(){
               
         
     } catch (error){
-           quote.textContent="Try again something went wrong"
+           quote.textContent="Something went wrong please try again"
     }
 }
 // twitter intent integration
