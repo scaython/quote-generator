@@ -17,9 +17,9 @@ async function fetchQuotes(){
     try {
         let response = await fetch(api_url);
         quotes= await response.json()
+              
         
-        
-    } catch (error) {
+    } catch (error){
            quote.textContent="Try again something went wrong"
     }
 }
